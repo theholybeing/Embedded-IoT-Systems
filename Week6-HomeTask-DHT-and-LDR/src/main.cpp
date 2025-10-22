@@ -19,7 +19,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("Combined Sensor Project Initializing...");
+  Serial.println("Initializing...");
 
   Wire.begin(SDA_PIN, SCL_PIN);
 
