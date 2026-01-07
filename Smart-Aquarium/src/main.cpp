@@ -8,9 +8,9 @@
 
 
 
-#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_ID "TMPL6Tc8YLoAK"
 #define BLYNK_TEMPLATE_NAME "Smart Aquarium"
-#define BLYNK_AUTH_TOKEN ""
+#define BLYNK_AUTH_TOKEN "thMQXGtDYGgplCN-k8WAdDwoXn6xTZ_H"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -25,7 +25,7 @@
 /************ WIFI & MQTT ************/
 const char* ssid = "23-1078";
 const char* password = "";
-const char* mqtt_server = "192.168.xx.xx"; 
+const char* mqtt_server = "192.168.43.68"; 
 const int mqtt_port = 1883;
 
 WiFiClient espClient;
