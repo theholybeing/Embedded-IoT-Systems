@@ -1,46 +1,64 @@
-# Embedded IoT Systems Projects
+# Embedded IoT Systems
 
-This repository contains multiple practical projects developed for the **Embedded IoT Systems** course.  
-It includes assignments, lecture demos, and hands-on IoT projects using microcontrollers like **ESP32** and Arduino.
+This repository showcases practical work developed as part of an **Embedded IoT Systems** course.  
+It demonstrates core concepts of embedded programming and Internet of Things (IoT) using **ESP32 and Arduino** platforms through hands-on projects and assignments.
 
-## 📂 Repository Structure
+## 🔍 Overview
 
-The repository includes the following folders:
+The repository is designed to provide a consolidated view of how embedded systems interact with sensors, actuators, displays, and network connectivity to build real-world IoT solutions.
 
-### 📁 Lectures & Tutorials
-- `Week4-lecture1-Timer-with-Interrupt`
-- `Week4-lecture2-OLED-Display`
-- `Week5-lecture2-LED+Buzzer`
-- `Week6-lecture1-DHT`
-- `Week6-lecture2-LDR`
-- `Week6-HomeTask-DHT-and-LDR`  
-- `Week9-lectre1_2-Wifi-and-Web`
-- `Week9-lecture3`
-- `Week10-lecture3`
-- `Week13-lec2-pub`
-- `Week13-lec2-sub`
+Rather than focusing on individual lectures, the codebase collectively demonstrates:
+- Embedded system fundamentals  
+- Sensor data acquisition  
+- Actuator control  
+- Display interfacing  
+- Wireless communication and IoT concepts  
 
-These folders contain example code and demos from weekly course lectures showing how to interface sensors, displays, timers, and Wi-Fi functionality on microcontrollers. :contentReference[oaicite:1]{index=1}
+## 🚀 Key Demonstrations
 
-### 📁 Projects
-- `esp32-blink` – A basic blink example for ESP32 microcontroller. :contentReference[oaicite:2]{index=2}
-- `Smart-Aquarium` – A project demonstrating an IoT-enabled aquarium controller using sensors and actuators. :contentReference[oaicite:3]{index=3}
-- `Assignment1_23-NTU-CS-1078` – Course assignment (details in folder). :contentReference[oaicite:4]{index=4}
-- `Assignment2_23-NTU-CS-1078` – Another course assignment. :contentReference[oaicite:5]{index=5}
+Across the repository, you will find implementations of:
 
-## 📌 What You Will Learn
+- **Microcontroller programming** using ESP32 and Arduino  
+- **Sensor integration** (temperature, humidity, light intensity)  
+- **Actuator control** (LEDs, buzzers, relays, motors)  
+- **OLED display interfacing** for real-time data visualization  
+- **Timers and interrupts** for precise task scheduling  
+- **Wi-Fi communication** and basic web/IoT interaction  
+- **Complete IoT projects**, such as a Smart Aquarium system  
 
-This repository covers key Embedded IoT topics such as:
+## 🧠 Learning Outcomes
 
-- Hardware interfacing with **sensors** (DHT, LDR) and **actuators** (LEDs, buzzers)  
-- Displaying data on **OLED screens** using graphics libraries  
-- Using **timers and interrupts** on microcontrollers  
-- ESP32 **Wi-Fi and web server** features for IoT applications  
-- Modular project structure for assignments and demonstrations :contentReference[oaicite:6]{index=6}
+By exploring this repository, you will gain experience in:
 
-## 📋 How to Get Started
+- Writing modular and structured embedded code  
+- Interfacing hardware components with microcontrollers  
+- Visualizing sensor data on displays  
+- Building small-scale IoT systems  
+- Understanding real-world embedded system workflows  
 
-1. **Clone this repository**:
+## 🛠 Hardware Components Used
 
+Common components used throughout the repository include:
+
+- ESP32 / Arduino boards  
+- DHT11 / DHT22 sensors  
+- LDR (Light Dependent Resistor)  
+- OLED Display (SSD1306)  
+- LEDs, buzzers, relays  
+- Servo motors and other actuators  
+- Breadboard and jumper wires  
+
+## 💻 Software & Tools
+
+Recommended tools for working with this repository:
+
+- Arduino IDE  
+- PlatformIO  
+- Visual Studio Code  
+- Wokwi Simulator (for testing and simulation)  
+
+## ▶️ Getting Started
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/theholybeing/Embedded-IoT-Systems.git
